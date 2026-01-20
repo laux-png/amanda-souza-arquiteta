@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './AboutMe.css'
 export default function AboutMe() {
 
