@@ -4,11 +4,6 @@
   height: 100%;
 }
 
-.apresentation__title,
-.autor {
-  font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
 .apresentation__background-top {
   background-color: var(--color-brown);
   height: 40vh;
@@ -25,7 +20,7 @@
 
 .apresentation__image-container {
   position: absolute;
-  top: 10vh;
+  top: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +28,7 @@
 }
 
 .apresentation__content-image {
-  width: 1070px;
+  width: var(--template-width);
 }
 
 .apresentation__info {
@@ -49,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1000px;
+  width: 1300px;
   font-size: 18px;
   color: var(--color-dark-brown);
 }
